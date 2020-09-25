@@ -1,0 +1,16 @@
+This is the input parameter data file for the RAYTRACE program in
+	ZEPHYRUS.  Please do not remove the "at-sign" at the end of the comments.
+
+	The first set of parameters involves the source;
+	the following line should contain the source direction in degrees,
+		the source altitude in meters,
+		the initial source location (x and y components in meters), and
+		the source Mach speed.
+	Note that in the presence of wind the source direction is the actual
+	ground heading, but the source Mach speed is with respect to the air
+	at rest.
+
+	sourcedir	sourcez0	sourcex0	sourcey0	sourcev
+	(degrees)	(meters)	(meters)	(meters)	(Mach)
+	---------	--------	--------	--------	------@
+	180.0 		11000.   	0.               0.             1.1
